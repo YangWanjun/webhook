@@ -11,7 +11,7 @@ GITLAB_WEBHOOK_KEY = ''
 BASE_DIR = app.root_path
 
 
-@app.route('/deploy', methods=["POST"])
+@app.route('/deploy/', methods=["POST"])
 def deploy():
     error = True
     http_status = 400
