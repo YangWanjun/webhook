@@ -1,0 +1,14 @@
+[
+  {
+    "repository": "subscription",
+    "branch": "master",
+    "token": "l6OFtHiZKx1wojp0Ggm9SxcwvyiA3KUFzogOtGyKi5h4fE32p8",
+    "shell": "git -C /workspace/nginx/html/subscription pull"
+  },
+  {
+    "repository": "net-poc-server",
+    "branch": "dev/subscription",
+    "token": "l6OFtHiZKx1wojp0Ggm9SxcwvyiA3KUFzogOtGyKi5h4fE32p8",
+    "shell": "git -C /workspace/subscription_server pull"
+  }
+]
