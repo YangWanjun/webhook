@@ -19,7 +19,7 @@
   },
   {
     "repository": "works-frontend",
-    "branch": "build/eb",
+    "branch": "master",
     "token": "l6OFtHiZKx1wojp0Ggm9SxcwvyiA3KUFzogOtGyKi5h4fE32p8",
     "shell": "git -C /workspace/works_front pull"
   },
