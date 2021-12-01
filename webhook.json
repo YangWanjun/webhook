@@ -1,14 +1,38 @@
 [
   {
-    "repository": "subscription",
-    "branch": "master",
+    "repository": "sales",
+    "branch": "release/eb",
     "token": "l6OFtHiZKx1wojp0Ggm9SxcwvyiA3KUFzogOtGyKi5h4fE32p8",
-    "shell": "git -C /workspace/nginx/html/subscription pull"
+    "shell": "git -C /workspace/eb_sales pull"
   },
   {
-    "repository": "net-poc-server",
-    "branch": "dev/subscription",
+    "repository": "sales-frontend",
+    "branch": "build/eb",
     "token": "l6OFtHiZKx1wojp0Ggm9SxcwvyiA3KUFzogOtGyKi5h4fE32p8",
-    "shell": "git -C /workspace/subscription_server pull"
+    "shell": "git -C /workspace/eb_sales_front pull"
+  },
+  {
+    "repository": "works",
+    "branch": "master",
+    "token": "l6OFtHiZKx1wojp0Ggm9SxcwvyiA3KUFzogOtGyKi5h4fE32p8",
+    "shell": "git -C /workspace/works pull"
+  },
+  {
+    "repository": "works-frontend",
+    "branch": "build/eb",
+    "token": "l6OFtHiZKx1wojp0Ggm9SxcwvyiA3KUFzogOtGyKi5h4fE32p8",
+    "shell": "git -C /workspace/works_front pull"
+  },
+  {
+    "repository": "gis",
+    "branch": "dev/flask",
+    "token": "l6OFtHiZKx1wojp0Ggm9SxcwvyiA3KUFzogOtGyKi5h4fE32p8",
+    "shell": "git -C /workspace/gis pull"
+  },
+  {
+    "repository": "webhook",
+    "branch": "master",
+    "token": "l6OFtHiZKx1wojp0Ggm9SxcwvyiA3KUFzogOtGyKi5h4fE32p8",
+    "shell": "git -C /workspace/webhook pull"
   }
 ]
