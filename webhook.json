@@ -6,6 +6,12 @@
     "shell": "git -C /workspace/eb_sales pull"
   },
   {
+    "repository": "sales",
+    "branch": "docs",
+    "token": "l6OFtHiZKx1wojp0Ggm9SxcwvyiA3KUFzogOtGyKi5h4fE32p8",
+    "shell": "git -C /workspace/eb_sales_doc pull"
+  },
+  {
     "repository": "sales-frontend",
     "branch": "build/eb",
     "token": "l6OFtHiZKx1wojp0Ggm9SxcwvyiA3KUFzogOtGyKi5h4fE32p8",
