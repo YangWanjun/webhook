@@ -40,5 +40,17 @@
     "branch": "master",
     "token": "l6OFtHiZKx1wojp0Ggm9SxcwvyiA3KUFzogOtGyKi5h4fE32p8",
     "shell": "git -C /workspace/webhook pull"
+  },
+  {
+    "repository": "cas-server",
+    "branch": "master",
+    "token": "vSHsBLMHIvQvER6NHK8ylVV9kw2YXJpcDbxO0qzHZWMYCfjpXh",
+    "shell": "git -C /workspace/cas-server pull"
+  },
+  {
+    "repository": "terminator",
+    "branch": "master",
+    "token": "7wunGnrHyhi0OZ2NpLfpPOl9e79mDAKDCD4i2CCLxlaLl5osT0",
+    "shell": "git -C /workspace/terminator pull"
   }
 ]
