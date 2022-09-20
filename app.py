@@ -1,5 +1,6 @@
 import hmac
 import json
+import os
 import subprocess
 from enum import Enum
 from hashlib import sha1
@@ -21,7 +22,8 @@ def deploy():
     http_status = 400
     detail = None
     command = None
-    path_config = Path(BASE_DIR) / 'webhook.json'
+
+    path_config = os.environ.get('CONFIG_PATH', Path(BASE_DIR) / 'webhook.json')
     header_signature = payload = None
     repository_type = RepositoryType.UNKNOWN
 
